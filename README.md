@@ -1,4 +1,4 @@
-# melonHD
+# melonHD 🍈
  
  melonHD is a video converter module based around Lontium Semiconductor's LT6711A. It accepts an HDMI 2.0 input signal (up to 2160p) and outputs USB-C DisplayPort 1.2 Alt Mode. The module is designed to allow [portablizers](https://bitbuilt.net/forums/index.php) to add USB-C video output to DIY handheld video game systems, and does not expose the HDMI DDC connections. As such, compatibility with PCs and other HDMI sources which rely on EDID is not guaranteed.  
 
