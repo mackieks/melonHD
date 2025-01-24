@@ -16,7 +16,7 @@
 - [x] 480p - 2160p HDMI 2.0 input and USB-C DP 1.2 Alt Mode output
 - [x] Pin-strappable VBUS PDO selection: 5V/3A, 9V/3A, 12V/3A, or 15V/3A
 - [x] Powered directly from 5V - 15V VBUS with onboard voltage regulators
-- [ ] HPD (hotplug detect) output pin: high for DP Alt Mode contracts, low for power-only contracts
+- [x] HPD (hotplug detect) output pin: high for DP Alt Mode contracts, low for power-only contracts
 
  <img src="https://github.com/mackieks/melonHD/blob/main/images/dimensions.jpg" width=400>
 
