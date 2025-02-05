@@ -993,7 +993,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(arc
@@ -1005,7 +1005,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
@@ -1069,6 +1069,17 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 0 -5.842)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
 						(xy 0 -5.842) (xy 0 4.318)
@@ -1079,17 +1090,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(circle
-					(center 0 -5.842)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(rectangle
@@ -1957,7 +1957,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(arc
@@ -1969,18 +1969,6 @@
 						(type default)
 					)
 					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
 						(type none)
 					)
 				)
@@ -1994,6 +1982,18 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(polyline
@@ -2390,7 +2390,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 0.889) (xy 1.143 1.143)
+						(xy 0.762 0.889) (xy -0.508 0.889)
 					)
 					(stroke
 						(width 0)
@@ -2402,7 +2402,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 0.889) (xy -0.508 0.889)
+						(xy 0.762 0.889) (xy 1.143 1.143)
 					)
 					(stroke
 						(width 0)
@@ -3741,6 +3741,32 @@
 		)
 		(uuid "a3bdce8a-5f79-4d79-8812-f59ea6b6fd2c")
 	)
+	(text "NOTE: 3.3V output pin is \nfor pinstrapping only.\nDo not connect an external load >50mA."
+		(exclude_from_sim no)
+		(at 182.88 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "aeeed206-acbe-4614-b0cc-f35cf3951fdb")
+	)
+	(text "PD VBUS Selection"
+		(exclude_from_sim no)
+		(at 164.9378 62.6158 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "c4841ec2-d583-4535-b889-41031c0e1473")
+	)
 	(text "HPD Behavior:\nLOW (0V) - Power-only contract\nHIGH (3.3V) - DP Alt Mode contract"
 		(exclude_from_sim no)
 		(at 200.66 106.68 0)
@@ -4962,6 +4988,16 @@
 		)
 		(uuid "a888c564-24f5-420a-b5f0-df1522ba2dd9")
 	)
+	(polyline
+		(pts
+			(xy 193.2177 60.3333) (xy 193.2911 60.3333)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aacaa4a9-19ef-4aa2-a480-a18ef6956ca9")
+	)
 	(wire
 		(pts
 			(xy 250.19 85.09) (xy 241.3 85.09)
@@ -5231,6 +5267,16 @@
 			(type default)
 		)
 		(uuid "de2c458b-5381-4a33-ba12-b3430f593092")
+	)
+	(polyline
+		(pts
+			(xy 183.3862 51.6757) (xy 193.2177 60.3333)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df64347e-6c76-4382-8d68-98ab9fb28a69")
 	)
 	(wire
 		(pts
