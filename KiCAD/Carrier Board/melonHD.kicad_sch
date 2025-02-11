@@ -3901,7 +3901,7 @@
 		)
 		(uuid "c4841ec2-d583-4535-b889-41031c0e1473")
 	)
-	(text "HPD Behavior:\nLOW (0V) - DP Alt Mode contract\nHIGH (3.3V) - Power-only contract"
+	(text "HPD Behavior:\nLOW (0V) - Power-only contract\nHIGH (3.3V) - DP Alt Mode contract"
 		(exclude_from_sim no)
 		(at 200.66 106.68 0)
 		(effects
