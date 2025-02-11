@@ -9,8 +9,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J1"
-				(at 10.922 1.2122 0)
+			(property "Reference" "J2"
+				(at 7.874 27.432 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -19,7 +19,7 @@
 				)
 			)
 			(property "Value" "XUNPU HDMI-201"
-				(at 10.922 -1.2121 0)
+				(at 12.446 7.874 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -396,7 +396,7 @@
 					)
 				)
 				(pin power_in line
-					(at -5.08 -27.94 90)
+					(at -3.81 -27.94 90)
 					(length 2.54)
 					(name "D2S"
 						(effects
@@ -414,7 +414,7 @@
 					)
 				)
 				(pin power_in line
-					(at -2.54 -27.94 90)
+					(at -1.27 -27.94 90)
 					(length 2.54)
 					(name "D1S"
 						(effects
@@ -450,7 +450,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -27.94 90)
+					(at 1.27 -27.94 90)
 					(length 2.54)
 					(name "D0S"
 						(effects
@@ -468,7 +468,7 @@
 					)
 				)
 				(pin power_in line
-					(at 2.54 -27.94 90)
+					(at 3.81 -27.94 90)
 					(length 2.54)
 					(name "CKS"
 						(effects
@@ -486,7 +486,7 @@
 					)
 				)
 				(pin power_in line
-					(at 5.08 -27.94 90)
+					(at 6.35 -27.94 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -504,16 +504,74 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -27.94 90)
+					(at 6.35 -27.94 90)
 					(length 2.54)
-					(name "SH"
+					(hide yes)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "SH"
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -27.94 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -27.94 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -27.94 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -638,17 +696,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at -10.16 29.21 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "USB_C_Receptacle"
-				(at 10.16 29.21 0)
+			(property "Reference" "J1"
+				(at -11.43 -2.5399 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -656,7 +705,16 @@
 					(justify right)
 				)
 			)
-			(property "Footprint" ""
+			(property "Value" "USB_C_Receptacle"
+				(at -11.43 -5.0799 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "usb4030:GCT_USB4080-03-A_REVA1"
 				(at 3.81 0 0)
 				(effects
 					(font
@@ -945,7 +1003,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(arc
@@ -957,7 +1015,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(arc
@@ -1069,17 +1127,6 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 -5.842)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(polyline
 					(pts
 						(xy 0 -5.842) (xy 0 4.318)
@@ -1090,6 +1137,17 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(circle
+					(center 0 -5.842)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(rectangle
@@ -1106,6 +1164,7 @@
 				(pin passive line
 					(at -7.62 -40.64 90)
 					(length 5.08)
+					(hide yes)
 					(name "SHIELD"
 						(effects
 							(font
@@ -1113,7 +1172,82 @@
 							)
 						)
 					)
-					(number "S1"
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -40.64 90)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -40.64 90)
+					(length 5.08)
+					(hide yes)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -40.64 90)
+					(length 5.08)
+					(hide yes)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -40.64 90)
+					(length 5.08)
+					(hide yes)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1957,7 +2091,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(arc
@@ -1969,18 +2103,6 @@
 						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
 						(type outline)
 					)
 				)
@@ -1994,6 +2116,18 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -2365,17 +2499,6 @@
 						(type outline)
 					)
 				)
-				(circle
-					(center 0 -6.604)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(polyline
 					(pts
 						(xy 0 -6.604) (xy 0 -7.62)
@@ -2386,6 +2509,17 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(circle
+					(center 0 -6.604)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -3741,7 +3875,7 @@
 		)
 		(uuid "a3bdce8a-5f79-4d79-8812-f59ea6b6fd2c")
 	)
-	(text "NOTE: 3.3V output pin is \nfor pinstrapping only.\nDo not connect an external load >50mA."
+	(text "NOTE: 3.3V output pin is \nfor pinstrapping / IO only.\nDo not connect an external load >50mA."
 		(exclude_from_sim no)
 		(at 182.88 52.07 0)
 		(effects
@@ -3767,7 +3901,7 @@
 		)
 		(uuid "c4841ec2-d583-4535-b889-41031c0e1473")
 	)
-	(text "HPD Behavior:\nLOW (0V) - Power-only contract\nHIGH (3.3V) - DP Alt Mode contract"
+	(text "HPD Behavior:\nLOW (0V) - DP Alt Mode contract\nHIGH (3.3V) - Power-only contract"
 		(exclude_from_sim no)
 		(at 200.66 106.68 0)
 		(effects
@@ -3797,6 +3931,12 @@
 		(uuid "4d731652-3c8b-4919-9fdd-26a28a25651a")
 	)
 	(junction
+		(at 76.2 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57890dfd-b486-4b83-86fa-2ee59bc2c6b9")
+	)
+	(junction
 		(at 87.63 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3821,6 +3961,12 @@
 		(uuid "72e47bf1-c1e3-4f70-9842-22e0dff278de")
 	)
 	(junction
+		(at 68.58 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73a58809-8697-4f47-8730-39fe304b41a7")
+	)
+	(junction
 		(at 58.42 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3839,28 +3985,16 @@
 		(uuid "8dc21246-4f2c-49b7-9bd3-5c716cda944e")
 	)
 	(junction
-		(at 72.39 115.57)
+		(at 71.12 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a2f27b5a-37b6-4e33-9b25-5f5c2b71a057")
-	)
-	(junction
-		(at 67.31 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a5477ded-8cbf-42cd-9d18-70509f627d2f")
+		(uuid "8f9a3ddf-f184-4cc0-9906-ed9364f77e29")
 	)
 	(junction
 		(at 86.36 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3862e15-bb5f-499d-b967-be8d4c36da8d")
-	)
-	(junction
-		(at 77.47 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b736c8a6-e238-40c3-a50e-ba1a6c6dab5c")
 	)
 	(junction
 		(at 170.18 101.6)
@@ -3893,28 +4027,22 @@
 		(uuid "d706bb8a-e739-4e85-977c-a11c327610f2")
 	)
 	(junction
-		(at 74.93 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ded11784-5fd4-4a4a-b0aa-d93fc179113f")
-	)
-	(junction
 		(at 87.63 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df9dab4b-ba48-43ba-848a-f33d4b1b5811")
 	)
 	(junction
+		(at 73.66 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6c6b63f-0772-4d2f-b9f3-0f9bfc273fed")
+	)
+	(junction
 		(at 86.36 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef4b9658-f495-4740-be58-d155ddf3ace2")
-	)
-	(junction
-		(at 69.85 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f26ff094-81d4-4d06-a707-5d794297e44e")
 	)
 	(junction
 		(at 86.36 92.71)
@@ -3960,7 +4088,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 113.03) (xy 72.39 115.57)
+			(xy 73.66 113.03) (xy 73.66 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4067,16 +4195,6 @@
 			(type default)
 		)
 		(uuid "0e586edc-e5ce-49b5-b0fb-5711e96ce353")
-	)
-	(wire
-		(pts
-			(xy 77.47 113.03) (xy 77.47 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0eccfde5-608e-4b32-bbb9-64a3c0a3e3c4")
 	)
 	(wire
 		(pts
@@ -4260,7 +4378,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 115.57) (xy 72.39 116.84)
+			(xy 71.12 115.57) (xy 71.12 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4330,7 +4448,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 115.57) (xy 69.85 115.57)
+			(xy 71.12 115.57) (xy 73.66 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4480,7 +4598,17 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 115.57) (xy 64.77 115.57)
+			(xy 76.2 115.57) (xy 85.09 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58f194d3-2cc4-4ab9-afbd-e484de91a6a5")
+	)
+	(wire
+		(pts
+			(xy 66.04 115.57) (xy 68.58 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4630,7 +4758,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 113.03) (xy 69.85 115.57)
+			(xy 71.12 113.03) (xy 71.12 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4650,7 +4778,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 115.57) (xy 67.31 115.57)
+			(xy 68.58 115.57) (xy 71.12 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4660,7 +4788,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 115.57) (xy 72.39 115.57)
+			(xy 73.66 115.57) (xy 76.2 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4717,16 +4845,6 @@
 			(type default)
 		)
 		(uuid "7dd00e5d-65b6-4c94-bd9c-8919ee9fd406")
-	)
-	(wire
-		(pts
-			(xy 85.09 115.57) (xy 77.47 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e06a0a0-a86d-4a3a-9399-3f73a176564c")
 	)
 	(wire
 		(pts
@@ -4810,7 +4928,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 113.03) (xy 67.31 115.57)
+			(xy 68.58 113.03) (xy 68.58 115.57)
 		)
 		(stroke
 			(width 0)
@@ -5090,7 +5208,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 115.57) (xy 64.77 113.03)
+			(xy 66.04 115.57) (xy 66.04 113.03)
 		)
 		(stroke
 			(width 0)
@@ -5120,7 +5238,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 113.03) (xy 74.93 115.57)
+			(xy 76.2 113.03) (xy 76.2 115.57)
 		)
 		(stroke
 			(width 0)
@@ -5487,16 +5605,6 @@
 			(type default)
 		)
 		(uuid "f87893c8-a78b-4926-abaa-853af2ef1880")
-	)
-	(wire
-		(pts
-			(xy 77.47 115.57) (xy 74.93 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcd4871a-69e3-422c-a026-e800a74a303f")
 	)
 	(wire
 		(pts
@@ -6993,7 +7101,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "16a7e4dc-0f5a-4540-84f9-ec92c3daa9ec")
-		(property "Reference" "TP5"
+		(property "Reference" "TP1"
 			(at 351.79 36.83 90)
 			(effects
 				(font
@@ -7045,7 +7153,7 @@
 		(instances
 			(project "melonHD"
 				(path "/1c59340f-65d9-4aa0-8992-82227e3c9e5a"
-					(reference "TP5")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -7128,7 +7236,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "36196a0a-d3c9-4a93-9222-ac431aee4ca5")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR01"
 			(at 360.68 35.56 0)
 			(effects
 				(font
@@ -7178,7 +7286,7 @@
 		(instances
 			(project "melonHD"
 				(path "/1c59340f-65d9-4aa0-8992-82227e3c9e5a"
-					(reference "#PWR057")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -7264,7 +7372,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "41e4bb56-edae-4012-9e57-835b56bd32a9")
-		(property "Reference" "U4"
+		(property "Reference" "U1"
 			(at 211.836 51.816 0)
 			(effects
 				(font
@@ -7403,7 +7511,7 @@
 		(instances
 			(project ""
 				(path "/1c59340f-65d9-4aa0-8992-82227e3c9e5a"
-					(reference "U4")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -7420,7 +7528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "437d9039-61db-4a55-bbec-3c6167078fb9")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 72.39 174.9255 0)
 			(effects
 				(font
@@ -7496,7 +7604,7 @@
 		(instances
 			(project "melonHD"
 				(path "/1c59340f-65d9-4aa0-8992-82227e3c9e5a"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -7512,7 +7620,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44b09e24-9259-4fc0-9571-42e30bd0acfb")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR010"
 			(at 72.39 240.03 0)
 			(effects
 				(font
@@ -7562,7 +7670,7 @@
 		(instances
 			(project "melonHD"
 				(path "/1c59340f-65d9-4aa0-8992-82227e3c9e5a"
-					(reference "#PWR07")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -7579,7 +7687,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a9069d1-bf67-4188-8b0c-5671448894d3")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 72.39 207.9455 0)
 			(effects
 				(font
@@ -7655,7 +7763,7 @@
 		(instances
 			(project "melonHD"
 				(path "/1c59340f-65d9-4aa0-8992-82227e3c9e5a"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -7806,7 +7914,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5970b426-2758-4b2d-b548-200fe2abf087")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR06"
 			(at 204.47 115.57 0)
 			(effects
 				(font
@@ -7856,7 +7964,7 @@
 		(instances
 			(project "melonHD"
 				(path "/1c59340f-65d9-4aa0-8992-82227e3c9e5a"
-					(reference "#PWR04")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -7871,7 +7979,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "60cf2224-f958-4f24-9eeb-e26f8a59d4fe")
-		(property "Reference" "TP2"
+		(property "Reference" "TP3"
 			(at 97.79 95.25 90)
 			(effects
 				(font
@@ -7923,7 +8031,7 @@
 		(instances
 			(project "melonHD"
 				(path "/1c59340f-65d9-4aa0-8992-82227e3c9e5a"
-					(reference "TP2")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -7938,10 +8046,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "70c7071a-bf16-4a11-acec-698ff24938d3")
-		(property "Reference" "J4"
-			(at 397.51 64.7699 0)
+		(property "Reference" "J1"
+			(at 384.81 32.258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7949,8 +8056,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "USB_C_Receptacle"
-			(at 397.51 67.3099 0)
+		(property "Value" "GCT USB4080-03-A or XUNPU TYPEC-324G-BCP24"
+			(at 399.034 43.942 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7997,7 +8104,7 @@
 		(pin "A7"
 			(uuid "cac2b155-dec4-430a-86a1-51007f653e39")
 		)
-		(pin "S1"
+		(pin "G2"
 			(uuid "4f3cfed0-f52b-4e46-85b7-556ff3e63434")
 		)
 		(pin "B10"
@@ -8060,10 +8167,22 @@
 		(pin "B2"
 			(uuid "bb8ea624-10b9-4977-b8ba-55e4b1b2ec3b")
 		)
+		(pin "G3"
+			(uuid "cea44f6a-9e9f-49ee-a47a-12676ceacd1f")
+		)
+		(pin "G4"
+			(uuid "1dee94cb-4446-4e15-84d0-81b8203afea9")
+		)
+		(pin "G1"
+			(uuid "3c0a132e-8ea8-4328-a53c-e848fa552ece")
+		)
+		(pin "1"
+			(uuid "d78f435b-40ab-4370-aa5a-f30138d93b06")
+		)
 		(instances
 			(project ""
 				(path "/1c59340f-65d9-4aa0-8992-82227e3c9e5a"
-					(reference "J4")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -8147,7 +8266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8054c4e4-4998-45cc-919f-8037e403b1de")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR09"
 			(at 72.39 205.74 0)
 			(effects
 				(font
@@ -8197,7 +8316,7 @@
 		(instances
 			(project "melonHD"
 				(path "/1c59340f-65d9-4aa0-8992-82227e3c9e5a"
-					(reference "#PWR06")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -8214,7 +8333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85a1a2c8-75eb-4263-b8ad-db7289fecc31")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 72.39 141.9055 0)
 			(effects
 				(font
@@ -8290,7 +8409,7 @@
 		(instances
 			(project "melonHD"
 				(path "/1c59340f-65d9-4aa0-8992-82227e3c9e5a"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -8305,7 +8424,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "884aaa7d-9eea-41e0-9a7d-57f0f85050f3")
-		(property "Reference" "TP1"
+		(property "Reference" "TP2"
 			(at 97.79 92.71 90)
 			(effects
 				(font
@@ -8357,7 +8476,7 @@
 		(instances
 			(project ""
 				(path "/1c59340f-65d9-4aa0-8992-82227e3c9e5a"
-					(reference "TP1")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -8365,7 +8484,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 72.39 116.84 0)
+		(at 71.12 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8373,8 +8492,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94cbbc8f-176a-4dd2-a7f0-6fc634fc4332")
-		(property "Reference" "#PWR02"
-			(at 72.39 123.19 0)
+		(property "Reference" "#PWR07"
+			(at 71.12 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8383,7 +8502,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 120.9731 0)
+			(at 71.12 120.9731 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8391,7 +8510,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 116.84 0)
+			(at 71.12 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8400,7 +8519,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 116.84 0)
+			(at 71.12 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8409,7 +8528,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 116.84 0)
+			(at 71.12 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8423,7 +8542,7 @@
 		(instances
 			(project "melonHD"
 				(path "/1c59340f-65d9-4aa0-8992-82227e3c9e5a"
-					(reference "#PWR02")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -8438,7 +8557,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "97a2f918-4d72-41f2-9e3f-d9011e5f53a7")
-		(property "Reference" "TP3"
+		(property "Reference" "TP5"
 			(at 92.71 102.87 90)
 			(effects
 				(font
@@ -8490,7 +8609,7 @@
 		(instances
 			(project "melonHD"
 				(path "/1c59340f-65d9-4aa0-8992-82227e3c9e5a"
-					(reference "TP3")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -8505,7 +8624,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a29dfbd-67f2-4b00-ace4-599a6f771048")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR02"
 			(at 72.39 55.88 0)
 			(effects
 				(font
@@ -8555,7 +8674,7 @@
 		(instances
 			(project ""
 				(path "/1c59340f-65d9-4aa0-8992-82227e3c9e5a"
-					(reference "#PWR01")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -8638,7 +8757,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b484e8dc-73f6-4bfc-80ab-bf4bdeba1472")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR04"
 			(at 148.59 113.03 0)
 			(effects
 				(font
@@ -8688,7 +8807,7 @@
 		(instances
 			(project "melonHD"
 				(path "/1c59340f-65d9-4aa0-8992-82227e3c9e5a"
-					(reference "#PWR08")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -8704,7 +8823,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b641f135-a130-4394-87b1-b3b12e9b14bf")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 64.516 57.658 0)
 			(effects
 				(font
@@ -8713,8 +8832,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "XUNPU HDMI-201"
-			(at 59.944 77.216 90)
+		(property "Value" "XUNPU HDMI-201 or Würth 685119136923"
+			(at 59.182 105.156 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8758,7 +8877,7 @@
 		(pin "6"
 			(uuid "d59b679e-8976-4a81-95d2-b6df07808509")
 		)
-		(pin "SH"
+		(pin "23"
 			(uuid "c2967420-ef9e-4490-93b6-27a818776d09")
 		)
 		(pin "13"
@@ -8809,10 +8928,19 @@
 		(pin "12"
 			(uuid "cd408468-b6ab-47d7-a68b-06fa24519568")
 		)
+		(pin "21"
+			(uuid "7a712bdd-afda-4895-b0c4-18fb46e2dc56")
+		)
+		(pin "20"
+			(uuid "0845c2e5-1778-42b0-85ce-b8577a50837c")
+		)
+		(pin "22"
+			(uuid "4aea90ed-fa57-44ff-8afa-016cb3317526")
+		)
 		(instances
 			(project "melonHD"
 				(path "/1c59340f-65d9-4aa0-8992-82227e3c9e5a"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -8828,7 +8956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5ce8b6b-c918-449d-92eb-35178238e6cf")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR08"
 			(at 72.39 172.72 0)
 			(effects
 				(font
@@ -8878,7 +9006,7 @@
 		(instances
 			(project "melonHD"
 				(path "/1c59340f-65d9-4aa0-8992-82227e3c9e5a"
-					(reference "#PWR05")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -8894,7 +9022,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e7274633-c426-4796-bc4b-24ea13e34e62")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR05"
 			(at 386.08 114.3 0)
 			(effects
 				(font
@@ -8944,7 +9072,7 @@
 		(instances
 			(project "melonHD"
 				(path "/1c59340f-65d9-4aa0-8992-82227e3c9e5a"
-					(reference "#PWR063")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
