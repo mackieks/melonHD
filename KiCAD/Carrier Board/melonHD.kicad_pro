@@ -679,7 +679,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../carrier_gerbers/",
+      "plot": "../../Gerbers/",
       "pos_files": "",
       "specctra_dsn": "melonHD.dsn",
       "step": "",
