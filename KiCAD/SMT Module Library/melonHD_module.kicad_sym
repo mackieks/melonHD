@@ -163,7 +163,7 @@
 			(pin input line
 				(at -21.59 1.27 0)
 				(length 2.54)
-				(name "TMDS0-"
+				(name "TMDS0+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -618,7 +618,7 @@
 			(pin input line
 				(at 11.43 -25.4 180)
 				(length 2.54)
-				(name "CC1"
+				(name "CC2"
 					(effects
 						(font
 							(size 1.27 1.27)
