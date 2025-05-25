@@ -7388,7 +7388,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:lt6711a_smt"
+		(property "Footprint" "melonhd_module:melonHD_SMT"
 			(at 229.87 77.47 0)
 			(effects
 				(font
