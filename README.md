@@ -1,4 +1,6 @@
 # melonHD 🍈
+
+ ## Purchase melonHD on [Flashfi.re](https://flashfi.re)
  
  melonHD is a video converter module based around Lontium Semiconductor's LT6711A. It accepts an HDMI 2.0 input signal (up to 2160p) and outputs USB-C DisplayPort 1.2 Alt Mode. 
 
